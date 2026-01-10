@@ -87,3 +87,18 @@ console.log(colores);
 colores.splice(2,1,"morado");
 console.log(colores);
 
+/*ejercico 3 transformacion declarativa inmutable*/
+
+let temperaturas = [15,20,25,30]
+
+let farenheit = temperaturas.map((temp) => (temp * 9/5) + 32);
+
+let farenheit2 = temperaturas.map(function(temp) {
+    return (temp * 9/5) + 32;
+});
+
+
+console.log(temperaturas);
+console.log(farenheit);
+
+console.log(farenheit2);
