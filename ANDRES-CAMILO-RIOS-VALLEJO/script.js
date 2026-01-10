@@ -124,3 +124,12 @@ const ventas =  [100,250,150,400]
 let totaVentas = ventas.reduce((acumulador, valorActual) => acumulador + valorActual, 0);
 
 console.log(totaVentas);
+
+/*ejercicio 6 ordenmiento alfabetico mutable*/
+
+let nombres = 
+["zulma", "andres", "bernanrdo", "carlos"]
+
+let nombresOrdenados = nombres.sort();
+
+console.log(nombresOrdenados);
