@@ -61,3 +61,17 @@ map(): Se utiliza para crear un nuevo arreglo con los resultados de la llamada a
 
 */
 
+
+/*ejercicio #1 gestion de pilas mutable */
+
+let herramientas = ["martillo", "destrornillador"]
+
+herramientas.push("taladro");
+console.log(herramientas);
+
+herramientas.unshift("sierra");
+console.log(herramientas);
+
+herramientas.pop();
+console.log(herramientas);
+
