@@ -116,3 +116,11 @@ let inventarioFiltrado2 = inventario.filter(function(item) {
 console.log(inventario);
 console.log(inventarioFiltrado);
 console.log(inventarioFiltrado2);
+
+/*ejercicio 5 acumulacion de datos inmutable*/
+
+const ventas =  [100,250,150,400]
+
+let totaVentas = ventas.reduce((acumulador, valorActual) => acumulador + valorActual, 0);
+
+console.log(totaVentas);
