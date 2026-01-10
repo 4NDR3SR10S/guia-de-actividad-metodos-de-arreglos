@@ -133,3 +133,10 @@ let nombres =
 let nombresOrdenados = nombres.sort();
 
 console.log(nombresOrdenados);
+
+/*ejercicio 7 inversion de datos mutable*/
+
+let orden = [1,2,3,4,5]
+
+let ordenInverso = orden.reverse();
+console.log(ordenInverso);
