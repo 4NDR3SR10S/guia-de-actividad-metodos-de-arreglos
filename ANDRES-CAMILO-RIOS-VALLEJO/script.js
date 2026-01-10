@@ -102,3 +102,17 @@ console.log(temperaturas);
 console.log(farenheit);
 
 console.log(farenheit2);
+
+/*ejercicio 4 filtrado selectivo inmutable*/
+
+let inventario = [5,12,8,130,44]
+
+let inventarioFiltrado = inventario.filter((item) => item >= 10);
+
+let inventarioFiltrado2 = inventario.filter(function(item) {
+    return item >= 10;
+});
+
+console.log(inventario);
+console.log(inventarioFiltrado);
+console.log(inventarioFiltrado2);
