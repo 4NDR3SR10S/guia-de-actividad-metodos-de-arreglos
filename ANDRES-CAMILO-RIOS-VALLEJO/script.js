@@ -75,3 +75,15 @@ console.log(herramientas);
 herramientas.pop();
 console.log(herramientas);
 
+/*ejercicio 2 modificacion de indice mutable:*/
+
+let colores = ["rojo", "verde", "azul", "amarillo"]
+
+console.log(colores);
+
+colores.splice(0,1,"naranja");
+console.log(colores);
+
+colores.splice(2,1,"morado");
+console.log(colores);
+
