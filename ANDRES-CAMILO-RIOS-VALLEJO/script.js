@@ -153,3 +153,10 @@ console.log(encontrado);
 const precios = [45,12,89,34]
 let indice = precios.findIndex((precio) => precio === 89);
 console.log(indice);
+
+/*ejercicio 10 comprobacion de existencia inmutable*/
+
+const cursos = ["git", "react","node"]
+let existe = cursos.includes("javaScript");
+console.log(existe);
+
