@@ -140,3 +140,10 @@ let orden = [1,2,3,4,5]
 
 let ordenInverso = orden.reverse();
 console.log(ordenInverso);
+
+/*busqueda de valor declarativo*/
+
+const invitados = ["juan", "maria", "pedro", "luisa"]
+
+let encontrado = invitados.find((invitado) => invitado === "pedro");
+console.log(encontrado);
