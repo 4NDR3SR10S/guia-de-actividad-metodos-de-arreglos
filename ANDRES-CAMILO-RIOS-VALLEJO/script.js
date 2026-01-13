@@ -160,3 +160,8 @@ const cursos = ["git", "react","node"]
 let existe = cursos.includes("javaScript");
 console.log(existe);
 
+/*ejercici0 11 validacion total declarativo*/
+
+const edades = [20,25,19,30]
+let todasMayores = edades.every((edad) => edad >= 18);
+console.log(todasMayores);
