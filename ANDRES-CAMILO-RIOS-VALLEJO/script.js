@@ -178,3 +178,10 @@ const filaA = ["A1", "A2"]
 const filaB = ["B1", "B2"]
 const salaCompleta = filaA.concat(filaB);
 console.log(salaCompleta);
+
+//ejercicio 14 formateo de strings inmutable
+
+const palabras = ["hola", "mundo", "JavaScript"]
+const frase = palabras.join(" ");
+console.log(frase);
+
