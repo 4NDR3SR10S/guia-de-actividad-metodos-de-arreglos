@@ -185,3 +185,8 @@ const palabras = ["hola", "mundo", "JavaScript"]
 const frase = palabras.join(" ");
 console.log(frase);
 
+//ejercicio 15 extraccion de rango inmutable
+
+const base = ["elemento0", "elemento1", "elemento2", "elemento3"]
+const subArray = base.slice(1,2);
+console.log(subArray);
