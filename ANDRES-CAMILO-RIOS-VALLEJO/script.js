@@ -171,3 +171,10 @@ console.log(todasMayores);
 const puntjes = [5,8,12,3]
 let algunMayor = puntjes.some((puntje) => puntje > 10);
 console.log(algunMayor);
+
+//ejercicio 13 concatenacion inmutable
+
+const filaA = ["A1", "A2"]
+const filaB = ["B1", "B2"]
+const salaCompleta = filaA.concat(filaB);
+console.log(salaCompleta);
