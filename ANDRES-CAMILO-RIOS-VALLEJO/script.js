@@ -165,3 +165,9 @@ console.log(existe);
 const edades = [20,25,19,30]
 let todasMayores = edades.every((edad) => edad >= 18);
 console.log(todasMayores);
+
+//ejercicio 12 validacion parcial declarativo
+
+const puntjes = [5,8,12,3]
+let algunMayor = puntjes.some((puntje) => puntje > 10);
+console.log(algunMayor);
